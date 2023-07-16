@@ -29,6 +29,6 @@ int main(void)
     Point pos1={-2, 4};
     Point pos2={5, 9};
     Rectangle rec = {pos2, pos1};
-    rec.ShowRecInfo();
+    rec.ShowRecInfo(); 
     return 0;
 }

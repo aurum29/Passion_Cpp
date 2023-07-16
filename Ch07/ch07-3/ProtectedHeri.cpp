@@ -14,7 +14,7 @@ public:
     { }
 };
 
-class Derived : protected Base { };      // empty!
+class Derived : protected Base {};      // empty!
 
 int main()
 {

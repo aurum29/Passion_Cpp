@@ -27,7 +27,7 @@ int main()
 {
     SoSimple obj(7);
     cout<<"함수호출 전"<<endl;
-    SimpleFuncObj(obj);
+    SimpleFuncObj(obj); // ob의 객체에 복사 생성자를 호출해, obj를 복사한다.
     cout<<"함수호출 후"<<endl;
     return 0;
 }

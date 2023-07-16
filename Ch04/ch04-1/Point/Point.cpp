@@ -45,3 +45,4 @@ bool Point::SetY(int ypos)
     y=ypos;
     return true;
 }
+// 엑세스 함수(access function)

@@ -23,7 +23,7 @@ public:
     }
 };
 
-SoSimple SimpleFuncObj(SoSimple ob)
+SoSimple SimpleFuncObj(SoSimple ob) // Called-by-Value 에서 처음 복사 생성자 호출
 {
     cout<<"return 이전"<<endl;
     return ob;  // return시에 객체 ob가 전달되며 임시 객체(Temporary Object)의 복사 생성자 호출
