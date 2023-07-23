@@ -19,6 +19,6 @@ class Derived : protected Base {};      // empty!
 int main()
 {
     Derived drv;
-    cout<<drv.num3<<endl;       // 컴파일 에러 발생!
+    // cout<<drv.num3<<endl;       // 컴파일 에러 발생!
     return 0;
 }
